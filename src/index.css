@@ -5,9 +5,154 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(210, 240, 240);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main{
+  width: 100%;
+  width: 800px;
+  height: auto;
+  margin: 70px auto;
+
+  background-color:rgb(253, 252, 248);
+  padding: 30px 0px;
+  border-radius: 10px;
+  
+}
+
+.heading{
+  font-size:40px;
+  text-align: center;
+}
+
+.container{
+  margin: 50px 50px;
+  line-height: 80px;
+  font-size: larger;
+}
+
+.title{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: -5px 0px;
+}
+
+div .quecontainer{
+  width: 100%;
+  width: 700px;
+  height: auto;
+  box-shadow: 2px 2px 5px rgb(255, 255, 255);
+  border: 2px solid rgb(227, 224, 224);
+  margin: 20px auto;
+  background-color:rgb(255, 255, 255) ;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.lines{
+  margin-top: 10px;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+
+p {
+  height: 45px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*
+@media (max-width: 768px) {
+   main {
+    width: 700px;
+    height: auto;
+    margin: 70px;
+    margin-left: 50px;
+    background-color:rgb(253, 252, 248);
+    padding: 10px 0px;
+  }
+
+  div .quecontainer{
+    width: 600px;
+    height: auto;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    border: 2px solid rgb(227, 224, 224);
+    margin: 5px 0px;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 5px;
+  }
+
+} */
+
+
+
+@media (max-width: 1200px) {
+  main {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+
+  div.quecontainer {
+    max-width: 600px;
+    padding: 10px;
+  }
+}
+
+
+
+
+@media (max-width: 600px) {
+   main {
+    width: 500px;
+    height: auto;
+    margin: 70px;
+    margin-left: 50px;
+    background-color:rgb(253, 252, 248);
+    padding: 10px 0px;
+  }
+
+  div .quecontainer{
+    width: 400px;
+    height: auto;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    border: 2px solid rgb(227, 224, 224);
+    margin: 5px 0px;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 5px;
+  }
+
+  .lines{
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: small;
+  }
+
+  .title{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+  
+  }
+}
+
+
+
+
+
+
+
+
